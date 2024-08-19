@@ -73,7 +73,7 @@ fun HomeUI(modifier: Modifier = Modifier) {
         ) {
 
             Icon(
-                painter = painterResource(id = R.drawable.movielog), // Your custom drawable resource
+                painter = painterResource(id = R.drawable.movielog),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(start = 8.dp)
@@ -91,7 +91,7 @@ fun HomeUI(modifier: Modifier = Modifier) {
                     .padding(start = 8.dp)
             ) {
                 Icon(
-                    painter = painterResource(id = R.drawable.search), // Your custom drawable resource
+                    painter = painterResource(id = R.drawable.search),
                     contentDescription = null,
                     modifier = Modifier
                         .padding(4.dp)
@@ -108,7 +108,7 @@ fun HomeUI(modifier: Modifier = Modifier) {
                     .padding(start = 8.dp)
             ) {
                 Icon(
-                    painter = painterResource(id = R.drawable.user), // Your custom drawable resource
+                    painter = painterResource(id = R.drawable.user),
                     contentDescription = null,
                     modifier = Modifier
                         .padding(start = 8.dp)
@@ -270,7 +270,7 @@ fun ShowHorizontalList2(data: Data2.Demo2, modifier: Modifier = Modifier) {
                 modifier = Modifier.width(100.dp),
                 shape = RoundedCornerShape(25.dp)
             ) {
-                // Empty Button content
+
             }
         }
     }
