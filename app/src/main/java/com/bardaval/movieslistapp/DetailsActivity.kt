@@ -66,6 +66,6 @@ fun DetailsScreen(
         Text(text = "Cast: $cast", fontSize = 16.sp, color = Color.Black)
         Text(text = "Release Date: $releaseDate", fontSize = 16.sp, color = Color.Gray)
 
-        Spacer(modifier = Modifier.weight(1f)) // Push the content to the top
+        Spacer(modifier = Modifier.weight(1f))
     }
 }

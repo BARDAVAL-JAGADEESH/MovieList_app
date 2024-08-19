@@ -71,7 +71,7 @@ fun HomeUI(modifier: Modifier = Modifier) {
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            // Additional User icon on the left side
+
             Icon(
                 painter = painterResource(id = R.drawable.movielog), // Your custom drawable resource
                 contentDescription = null,
@@ -81,10 +81,8 @@ fun HomeUI(modifier: Modifier = Modifier) {
                 tint = Color.White
             )
 
-            // Spacer to push search icon towards the right side
             Spacer(modifier = Modifier.weight(1f))
 
-            // Search icon
             IconButton(
                 onClick = {
                     Toast.makeText(context, "Search clicked", Toast.LENGTH_SHORT).show()
@@ -102,7 +100,6 @@ fun HomeUI(modifier: Modifier = Modifier) {
                 )
             }
 
-            // Original User icon on the right side
             IconButton(
                 onClick = {
                     Toast.makeText(context, "User Clicked", Toast.LENGTH_SHORT).show()
@@ -201,7 +198,7 @@ fun ShowHorizontalList1(data: Data.Demo, modifier: Modifier = Modifier) {
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxSize()
-                    .clip(RoundedCornerShape(8.dp)), // Rounded corners
+                    .clip(RoundedCornerShape(8.dp)),
                 contentScale = ContentScale.Crop
             )
             Button(
@@ -298,7 +295,7 @@ fun VerticalItem(data: Data.Demo, modifier: Modifier = Modifier) {
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxSize()
-                    .clip(RoundedCornerShape(8.dp)), // Rounded corners
+                    .clip(RoundedCornerShape(8.dp)),
                 contentScale = ContentScale.Crop
             )
             Button(
